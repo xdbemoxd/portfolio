@@ -25,13 +25,13 @@ const imageStyle = {
 export default function LayoutMain() {
 
     return(
-        <div className="flex flex-center justify-center w-screen bg-blue-300/70 mb-15">
+        <div className="flex flex-center justify-center w-screen bg-blue-300/70 mb-15 max-sm:flex max-sm:justify-start max-sm:mb-4">
                 <div className="p-1">
-                    <Image src={"/fotoPerfil.jpg"} alt="Foto de benjamin" width={140} height={190} style={imageStyle}/> 
+                    <Image src={"/fotoPerfil.jpg"} alt="Foto de benjamin" width={140} height={190} style={imageStyle} className="max-sm:w-20 max-sm:h-20"/> 
                 </div>
                 
-                <div className="flex-col justify-center pl-2">
-                    <p className="text-3xl italic font-semibold pt-6">Benjamin Marroquin</p>
+                <div className="flex-col justify-center pl-2 max-sm:">
+                    <p className="text-3xl italic font-semibold pt-6 max-sm:text-xl">Benjamin Marroquin</p>
                     <div className="bottom-1 snap-center pt-8 justify-between">
                         
                         <Breadcrumb>
@@ -40,7 +40,7 @@ export default function LayoutMain() {
                         
                                 <BreadcrumbItem>
                         
-                                    <BreadcrumbPage> <Link href={"/"}> <p className="text-2xl italic font-normal">Home</p> </Link> </BreadcrumbPage>
+                                    <BreadcrumbPage> <Link href={"/"}> <p className="text-2xl italic font-normal max-sm:text-xs">Home</p> </Link> </BreadcrumbPage>
                         
                                 </BreadcrumbItem>
                         
@@ -52,7 +52,7 @@ export default function LayoutMain() {
                                         
                                         <DropdownMenuTrigger className="flex items-center gap-1 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-3.5 text-2xl italic font-normal text-black">
                                         
-                                            <p className="text-2xl italic font-normal">Sobre mi</p>
+                                            <p className="text-2xl italic font-normal max-sm:text-xs">Sobre mi</p>
                                         
                                             <ChevronDownIcon />
                                         
@@ -60,11 +60,11 @@ export default function LayoutMain() {
                                         
                                         <DropdownMenuContent align="start">
                                         
-                                            <DropdownMenuItem> <Link href={"/"}> <p className="text-2xl italic font-normal">Ciencia de datos</p> </Link> </DropdownMenuItem>
+                                            <DropdownMenuItem> <Link href={"/Page/AboutMe/DataScientist"}> <p className="text-2xl italic font-normal max-sm:text-xs">Ciencia de datos</p> </Link> </DropdownMenuItem>
                                         
-                                            <DropdownMenuItem> <Link href={"/"}> <p className="text-2xl italic font-normal">Front-end</p> </Link> </DropdownMenuItem>
+                                            <DropdownMenuItem> <Link href={"/Page/AboutMe/FrontEnd"}> <p className="text-2xl italic font-normal max-sm:text-xs">Front-end</p> </Link> </DropdownMenuItem>
                                         
-                                            <DropdownMenuItem> <Link href={"/"}> <p className="text-2xl italic font-normal">Universidad</p> </Link> </DropdownMenuItem>
+                                            <DropdownMenuItem> <Link href={"/Page/AboutMe/University"}> <p className="text-2xl italic font-normal max-sm:text-xs">Universidad</p> </Link> </DropdownMenuItem>
                                         
                                         </DropdownMenuContent>
                                     </DropdownMenu>
@@ -75,7 +75,7 @@ export default function LayoutMain() {
                         
                                 <BreadcrumbItem>
                         
-                                    <BreadcrumbPage> <Link href={"/"}> <p className="text-2xl italic font-normal">Contactame</p> </Link> </BreadcrumbPage>
+                                    <BreadcrumbPage> <Link href={"/"}> <p className="text-2xl italic font-normal max-sm:text-xs">Contactame</p> </Link> </BreadcrumbPage>
                         
                                 </BreadcrumbItem>
                         
@@ -86,7 +86,6 @@ export default function LayoutMain() {
                     </div>
 
                 </div>
-
                 
         </div>
    

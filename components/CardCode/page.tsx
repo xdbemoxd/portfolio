@@ -16,18 +16,18 @@ interface Props {
 
 export function CardCode({ href, name, programmingLanguage, description }:Props) {
   return (
-    <Card className="w-full max-w-sm shadow-lg shadow-gray-500/30">
+    <Card className="w-full max-w-sm shadow-lg shadow-gray-500/30 max-sm:m-0.5">
       <CardHeader>
-        <CardTitle className="text-2xl font-normal">{ name }</CardTitle>
-        <CardDescription className="text-xl font-normal">
+        <CardTitle className="text-2xl font-normal max-sm:text-xs">{ name }</CardTitle>
+        <CardDescription className="text-xl font-normal max-sm:text-xs">
           { description }
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <p className="text-xl font-normal"> Se uso el siguiente lenguaje de programacion: { programmingLanguage }</p>
+        <p className="text-xl font-normal max-sm:text-xs"> Se utilizo: { programmingLanguage }</p>
       </CardContent>
       <CardFooter>
-        <a href={ href }> GitHub </a>
+        <a href={ href } className="max-sm:text-xs "> GitHub </a>
       </CardFooter>
     </Card>
   )
