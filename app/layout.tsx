@@ -26,15 +26,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased h-screen grid max-sm:`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-radial-[at_25%_25%] from-gray-950 to-slate-900 to-55%`}
       >
-        <div className="">
-          <LayoutMain/>
-        </div>
+      
+        <LayoutMain/>
         
-       <div className="">
         {children} 
-       </div>
         
       </body>
     </html>

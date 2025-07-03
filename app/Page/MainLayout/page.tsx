@@ -71,14 +71,6 @@ export default function LayoutMain() {
                         
                                 </BreadcrumbItem>
                         
-                                <BreadcrumbSeparator />
-                        
-                                <BreadcrumbItem>
-                        
-                                    <BreadcrumbPage> <Link href={"/"}> <p className="text-2xl italic font-normal max-sm:text-xs">Contactame</p> </Link> </BreadcrumbPage>
-                        
-                                </BreadcrumbItem>
-                        
                             </BreadcrumbList>
                         
                         </Breadcrumb>
