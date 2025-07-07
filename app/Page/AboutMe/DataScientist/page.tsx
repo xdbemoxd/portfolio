@@ -17,9 +17,9 @@ export default async function DataScientist(){
         
     return(
 
-        <div className="grid place-content-center mt-10 max-sm:mt-5 max-sm:w-100 ">
+        <div className="grid place-content-center mt-10 max-sm:mt-5 max-sm:w-100 max-sm:ml-5">
             
-            <div className="text-center bg-blue-500/15 m-10 p-4 mx-auto rounded-xl shadow-lg shadow-blue-500/30 max-sm:p-0.5 w-375 max-sm:w-100 text-white">
+            <div className="text-center bg-blue-500/15 m-2 p-4 mx-auto rounded-xl shadow-lg shadow-blue-500/30 max-sm:p-0.5 w-375 max-sm:w-100 text-white">
                 <h1 className="text-7xl font-bold text-center max-sm:text-xl">Data Scientist</h1>
             
                 <p className="text-4xl m-4 max-sm:text-xs">
@@ -27,7 +27,7 @@ export default async function DataScientist(){
                 </p>
             </div>
 
-            <div className="grid place-content-center max-sm:mb-10">
+            <div className="grid place-content-center max-sm:mb-20">
 
                 <Carousel className="w-350 max-sm:w-75 max-sm:h-40">
                 
@@ -39,7 +39,7 @@ export default async function DataScientist(){
                             
                                 <Card className="">
                             
-                                    <CardContent className="max-sm:h-45 max-sm:w-75">
+                                    <CardContent className="max-sm:h-auto max-sm:w-75">
                             
                                         <CardCourse href={df.url} name={df.nombre} date={df.fecha}/>
                             
@@ -53,9 +53,9 @@ export default async function DataScientist(){
                     
                     </CarouselContent>
                     
-                    <CarouselPrevious />
+                    <CarouselPrevious className="max-sm:mt-30"/>
                     
-                    <CarouselNext />
+                    <CarouselNext className="max-sm:mt-30"/>
                 
                 </Carousel>
 
@@ -63,7 +63,7 @@ export default async function DataScientist(){
 
             
 
-            <div className="grid place-content-center mt-15 mb-6">
+            <div className="grid place-content-center mt-15 mb-20 max-sm:mt-20">
 
                 <h1 className="text-6xl italic font-semibold mb-5 text-center max-sm:text-xl text-white">Proyectos realizados</h1>
 
@@ -77,7 +77,7 @@ export default async function DataScientist(){
                             
                                 <Card>
                             
-                                    <CardContent className="max-sm:h-45 max-sm:w-75">
+                                    <CardContent className="max-sm:h-auto max-sm:w-75">
                             
                                         <CardCode href={df.href} name={df.name} programmingLanguage={df.programmingLanguage} description={df.description} />
                                             
