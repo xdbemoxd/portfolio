@@ -19,8 +19,8 @@ export default async function DataScientist(){
 
         <div className="grid place-content-center mt-10 max-sm:mt-5 max-sm:w-100 max-sm:ml-5">
             
-            <div className="text-center bg-blue-500/15 m-2 p-4 mx-auto rounded-xl shadow-lg shadow-blue-500/30 max-sm:p-0.5 w-375 max-sm:w-auto text-white">
-                <h1 className="text-7xl font-bold text-center max-sm:text-xl">Data Scientist</h1>
+            <div className="bg-blue-500/15 m-2 p-4 rounded-xl shadow-lg shadow-blue-500/30 max-sm:p-0.5 max-sm:w-85 max-sm:h-auto text-white">
+                <h1 className="text-center text-7xl font-bold max-sm:text-xl">Data Scientist</h1>
             
                 <p className="text-4xl m-4 max-sm:text-xs">
                     Durante 2024, completé diversas formaciones en Ciencia de Datos, disciplina que constituye mi principal interés profesional. Como siguiente objetivo, planeo certificarme en <a href="https://www.coursera.org/specializations/machine-learning-introduction#courses" className="text-blue-500"> Machine learning</a>. Cursos relevantes realizados:
