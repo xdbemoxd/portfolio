@@ -17,7 +17,7 @@ export default async function DataScientist(){
         
     return(
 
-        <div className="grid place-content-center mt-10 max-sm:mt-5 max-sm:w-auto">
+        <div className="grid place-content-center mt-10 max-sm:mt-5 w-auto">
             
             <div className="text-center bg-blue-500/15 m-5 p-4 rounded-xl shadow-lg shadow-blue-500/30 max-sm:p-0.5 max-sm:w-auto text-white">
                 <h1 className="text-center text-7xl font-bold max-sm:text-xl">Data Scientist</h1>
