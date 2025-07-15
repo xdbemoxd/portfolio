@@ -19,21 +19,21 @@ export default function Home() {
         <p className="text-2xl font-normal m-1 max-sm:text-xs"> Para mas infomarcion: <Link href={"/Page/AboutMe/DataScientist"} className="text-blue-600"> sobre mi en ciencia de datos</Link> </p>
       </div>
 
-      <div className="">
+      <div className="grid place-content-center">
         
         <h1 className="text-5xl font-bold m-1 max-sm:text-2xl max-sm:text-center text-white"> Codigo </h1>
         
         <div className="grid grid-cols-3 m-10 max-sm:grid-cols-1">
           
-          <div className="mr-2 p-3 rounded-lg bg-white grid place-center mb-5">
+          <div className="mr-2 p-3 rounded-lg bg-white grid place-center mb-5 h-auto w-85">
             <CardCode href="https://github.com/xdbemoxd/portfolio.git" name="Portfolio" programmingLanguage="Next.js" description="Portafolio online para dar mas detalles sobre mi" />
           </div>
 
-          <div className="mr-2 p-3 rounded-lg bg-white grid place-center mb-5">
+          <div className="mr-2 p-3 rounded-lg bg-white grid place-center mb-5 h-auto w-85">
             <CardCode href="https://github.com/xdbemoxd/semaforo_c_SO.git" name="semaforo_c_SO" programmingLanguage="C y Python" description="Programa que maneja multiples procesos al mismo tiempo" />
           </div>
 
-          <div className="p-3 rounded-lg bg-white grid place-center">
+          <div className="p-3 rounded-lg bg-white grid place-center h-auto w-85">
             <CardCode href="https://github.com/xdbemoxd/manejo_datos_faltantes.git" name="manejo_datos_faltantes" programmingLanguage="Python" description="Proyecto realizado con el fin de practicar lo aprendido en el curso de manejo de datos faltantes de platzi" />
           </div>
 

@@ -53,9 +53,9 @@ export default async function DataScientist(){
                     
                     </CarouselContent>
                     
-                    <CarouselPrevious className="max-sm:mt-30"/>
+                    <CarouselPrevious className="max-sm:hidden"/>
                     
-                    <CarouselNext className="max-sm:mt-30"/>
+                    <CarouselNext className="max-sm:hidden"/>
                 
                 </Carousel>
 
@@ -91,9 +91,9 @@ export default async function DataScientist(){
                     
                     </CarouselContent>
                     
-                    <CarouselPrevious />
+                    <CarouselPrevious className="max-sm:hidden"/>
                     
-                    <CarouselNext />
+                    <CarouselNext className="max-sm:hidden"/>
                 
                 </Carousel>
 
