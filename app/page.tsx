@@ -25,11 +25,11 @@ export default function Home() {
         
         <div className="grid grid-cols-3 m-10 max-sm:grid-cols-1">
           
-          <div className="mr-2 p-3 rounded-lg bg-white grid place-center">
+          <div className="mr-2 p-3 rounded-lg bg-white grid place-center mb-5">
             <CardCode href="https://github.com/xdbemoxd/portfolio.git" name="Portfolio" programmingLanguage="Next.js" description="Portafolio online para dar mas detalles sobre mi" />
           </div>
 
-          <div className="mr-2 p-3 rounded-lg bg-white grid place-center">
+          <div className="mr-2 p-3 rounded-lg bg-white grid place-center mb-5">
             <CardCode href="https://github.com/xdbemoxd/semaforo_c_SO.git" name="semaforo_c_SO" programmingLanguage="C y Python" description="Programa que maneja multiples procesos al mismo tiempo" />
           </div>
 

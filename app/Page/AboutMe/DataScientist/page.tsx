@@ -19,7 +19,7 @@ export default async function DataScientist(){
 
         <div className="grid place-content-center mt-10 max-sm:mt-5 max-sm:w-100 max-sm:ml-5">
             
-            <div className="text-center bg-blue-500/15 m-2 p-4 mx-auto rounded-xl shadow-lg shadow-blue-500/30 max-sm:p-0.5 w-375 max-sm:w-100 text-white">
+            <div className="text-center bg-blue-500/15 m-2 p-4 mx-auto rounded-xl shadow-lg shadow-blue-500/30 max-sm:p-0.5 w-375 max-sm:w-auto text-white">
                 <h1 className="text-7xl font-bold text-center max-sm:text-xl">Data Scientist</h1>
             
                 <p className="text-4xl m-4 max-sm:text-xs">
@@ -65,11 +65,11 @@ export default async function DataScientist(){
 
             <div className="grid place-content-center mt-15 mb-20 max-sm:mt-20">
 
-                <h1 className="text-6xl italic font-semibold mb-5 text-center max-sm:text-xl text-white">Proyectos realizados</h1>
+                <h1 className="text-6xl italic font-semibold mb-5 text-center max-sm:text-xl text-white grid place-content-center">Proyectos realizados</h1>
 
                 <Carousel className="w-350 max-sm:w-75 max-sm:h-40">
                 
-                    <CarouselContent className="-ml-1">
+                    <CarouselContent className="">
                 
                         {projects.map(( df, index) => (
                 

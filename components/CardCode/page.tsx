@@ -16,7 +16,7 @@ interface Props {
 
 export function CardCode({ href, name, programmingLanguage, description }:Props) {
   return (
-    <Card className="w-full h-auto max-sm:w-auto max-sm:h-auto bg-slate-900 border-2 border-gray-800/100 text-white">
+    <Card className="w-full h-auto bg-slate-900 border-2 border-gray-800/100 text-white">
       <CardHeader>
         <CardTitle className="text-xl font-normal max-sm:text-xs">{ name }</CardTitle>
         <CardDescription className="text-lg font-normal max-sm:text-xs">
