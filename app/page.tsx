@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid place-content-center mt-10 max-sm:mt-5">
+    <div className="grid place-content-center mt-10 max-sm:mt-5 w-auto">
 
       <div className="text-center bg-blue-500/15 m-10 p-4 mx-auto rounded-xl shadow-lg shadow-blue-500/30 max-sm:p-0.5 text-white">
         <h1 className="text-5xl font-bold m-1 max-sm:text-xl"> Desarrollador web - Área frontend  </h1>
@@ -19,17 +19,17 @@ export default function Home() {
         <p className="text-2xl font-normal m-1 max-sm:text-xs"> Para mas infomarcion: <Link href={"/Page/AboutMe/DataScientist"} className="text-blue-600"> sobre mi en ciencia de datos</Link> </p>
       </div>
 
-      <div className="grid place-content-center">
+      <div className="max-sm:grid max-sm:place-content-center max-sm:w-auto">
         
-        <h1 className="text-5xl font-bold m-1 max-sm:text-2xl max-sm:text-center text-white"> Codigo </h1>
+        <h1 className="text-5xl font-bold max-sm:text-2xl max-sm:text-center text-white"> Codigo </h1>
         
-        <div className="grid grid-cols-3 m-10 max-sm:grid-cols-1">
+        <div className="grid grid-cols-3 max-sm:grid-cols-1">
           
-          <div className="mr-2 p-3 rounded-lg bg-white grid place-center mb-5 h-auto w-85">
+          <div className="p-3 rounded-lg bg-white grid place-center mb-5 h-auto w-85 max-sm:mt-5">
             <CardCode href="https://github.com/xdbemoxd/portfolio.git" name="Portfolio" programmingLanguage="Next.js" description="Portafolio online para dar mas detalles sobre mi" />
           </div>
 
-          <div className="mr-2 p-3 rounded-lg bg-white grid place-center mb-5 h-auto w-85">
+          <div className="p-3 rounded-lg bg-white grid place-center mb-5 h-auto w-85">
             <CardCode href="https://github.com/xdbemoxd/semaforo_c_SO.git" name="semaforo_c_SO" programmingLanguage="C y Python" description="Programa que maneja multiples procesos al mismo tiempo" />
           </div>
 
